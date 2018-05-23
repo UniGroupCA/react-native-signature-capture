@@ -1,5 +1,5 @@
 {
-  "name": "react-native-signature-capture",
+  "name": "@qdivision/react-native-signature-capture",
   "version": "0.4.7",
   "description": "Lets users sign their signatures",
   "main": "SignatureCapture.js",
@@ -8,23 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RepairShopr/react-native-signature-capture.git"
+    "url": "git+https://github.com/QDivision/react-native-signature-capture.git"
   },
   "keywords": [
     "react-component",
     "react-native",
     "ios",
+    "android",
     "signature"
   ],
   "peerDependencies": {
     "react-native": ">=0.47"
   },
-  "author": "RepairShopr",
+  "author": "QDivision",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RepairShopr/react-native-signature-capture/issues"
+    "url": "https://github.com/QDivision/react-native-signature-capture/issues"
   },
-  "homepage": "https://github.com/RepairShopr/react-native-signature-capture#readme",
+  "homepage": "https://github.com/QDivision/react-native-signature-capture#readme",
   "dependencies": {
     "prop-types": "^15.5.10"
   }
