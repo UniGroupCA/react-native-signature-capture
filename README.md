@@ -1,3 +1,5 @@
+Forked from https://github.com/RepairShopr/react-native-signature-capture.
+
 # react-native-signature-capture
 
 ## About this
