@@ -83,18 +83,13 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "30.0.2"
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.signaturecaptureexample"
-        minSdkVersion 31
-        targetSdkVersion 31
+        minSdkVersion 16
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         ndk {
@@ -132,6 +127,7 @@ android {
 
 dependencies {
     compile fileTree(dir: "libs", include: ["*.jar"])
+    compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
 }
 
