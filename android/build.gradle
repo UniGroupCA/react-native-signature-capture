@@ -1,12 +1,13 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 35
     buildToolsVersion "30.0.2"
+    namespace "com.qdivision.reactnativesignaturecapture"
 
     defaultConfig {
-        minSdkVersion 23
-        targetSdkVersion 33
+        minSdkVersion 24
+        targetSdkVersion 35
         versionCode 1
         versionName "1.0"
         ndk {
